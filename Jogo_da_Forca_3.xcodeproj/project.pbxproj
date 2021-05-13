@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14CBF2D5264CC0000001FA44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBF2D4264CC0000001FA44 /* AppDelegate.swift */; };
+		14CBF2D7264CC0000001FA44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBF2D6264CC0000001FA44 /* SceneDelegate.swift */; };
+		14CBF2D9264CC0000001FA44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBF2D8264CC0000001FA44 /* ViewController.swift */; };
+		14CBF2DC264CC0000001FA44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14CBF2DA264CC0000001FA44 /* Main.storyboard */; };
+		14CBF2DE264CC0020001FA44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14CBF2DD264CC0020001FA44 /* Assets.xcassets */; };
+		14CBF2E1264CC0020001FA44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14CBF2DF264CC0020001FA44 /* LaunchScreen.storyboard */; };
+		14CBF2EB264CC6F60001FA44 /* viewResultadoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBF2EA264CC6F60001FA44 /* viewResultadoController.swift */; };
+		14CBF2ED264CCB610001FA44 /* JogoForca.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBF2EC264CCB610001FA44 /* JogoForca.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14CBF2D1264CC0000001FA44 /* Jogo_da_Forca_3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jogo_da_Forca_3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14CBF2D4264CC0000001FA44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14CBF2D6264CC0000001FA44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		14CBF2D8264CC0000001FA44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14CBF2DB264CC0000001FA44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14CBF2DD264CC0020001FA44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14CBF2E0264CC0020001FA44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14CBF2E2264CC0020001FA44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14CBF2EA264CC6F60001FA44 /* viewResultadoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewResultadoController.swift; sourceTree = "<group>"; };
+		14CBF2EC264CCB610001FA44 /* JogoForca.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoForca.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14CBF2CE264CC0000001FA44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14CBF2C8264CC0000001FA44 = {
+			isa = PBXGroup;
+			children = (
+				14CBF2D3264CC0000001FA44 /* Jogo_da_Forca_3 */,
+				14CBF2D2264CC0000001FA44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14CBF2D2264CC0000001FA44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14CBF2D1264CC0000001FA44 /* Jogo_da_Forca_3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14CBF2D3264CC0000001FA44 /* Jogo_da_Forca_3 */ = {
+			isa = PBXGroup;
+			children = (
+				14CBF2D4264CC0000001FA44 /* AppDelegate.swift */,
+				14CBF2D6264CC0000001FA44 /* SceneDelegate.swift */,
+				14CBF2D8264CC0000001FA44 /* ViewController.swift */,
+				14CBF2DA264CC0000001FA44 /* Main.storyboard */,
+				14CBF2DD264CC0020001FA44 /* Assets.xcassets */,
+				14CBF2DF264CC0020001FA44 /* LaunchScreen.storyboard */,
+				14CBF2E2264CC0020001FA44 /* Info.plist */,
+				14CBF2EA264CC6F60001FA44 /* viewResultadoController.swift */,
+				14CBF2EC264CCB610001FA44 /* JogoForca.swift */,
+			);
+			path = Jogo_da_Forca_3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14CBF2D0264CC0000001FA44 /* Jogo_da_Forca_3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14CBF2E5264CC0020001FA44 /* Build configuration list for PBXNativeTarget "Jogo_da_Forca_3" */;
+			buildPhases = (
+				14CBF2CD264CC0000001FA44 /* Sources */,
+				14CBF2CE264CC0000001FA44 /* Frameworks */,
+				14CBF2CF264CC0000001FA44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jogo_da_Forca_3;
+			productName = Jogo_da_Forca_3;
+			productReference = 14CBF2D1264CC0000001FA44 /* Jogo_da_Forca_3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14CBF2C9264CC0000001FA44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = IFPB;
+				TargetAttributes = {
+					14CBF2D0264CC0000001FA44 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 14CBF2CC264CC0000001FA44 /* Build configuration list for PBXProject "Jogo_da_Forca_3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14CBF2C8264CC0000001FA44;
+			productRefGroup = 14CBF2D2264CC0000001FA44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14CBF2D0264CC0000001FA44 /* Jogo_da_Forca_3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14CBF2CF264CC0000001FA44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CBF2E1264CC0020001FA44 /* LaunchScreen.storyboard in Resources */,
+				14CBF2DE264CC0020001FA44 /* Assets.xcassets in Resources */,
+				14CBF2DC264CC0000001FA44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14CBF2CD264CC0000001FA44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CBF2ED264CCB610001FA44 /* JogoForca.swift in Sources */,
+				14CBF2D9264CC0000001FA44 /* ViewController.swift in Sources */,
+				14CBF2D5264CC0000001FA44 /* AppDelegate.swift in Sources */,
+				14CBF2EB264CC6F60001FA44 /* viewResultadoController.swift in Sources */,
+				14CBF2D7264CC0000001FA44 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14CBF2DA264CC0000001FA44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14CBF2DB264CC0000001FA44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14CBF2DF264CC0020001FA44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14CBF2E0264CC0020001FA44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14CBF2E3264CC0020001FA44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14CBF2E4264CC0020001FA44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14CBF2E6264CC0020001FA44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jogo_da_Forca_3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ifpb.Jogo-da-Forca-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14CBF2E7264CC0020001FA44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jogo_da_Forca_3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ifpb.Jogo-da-Forca-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14CBF2CC264CC0000001FA44 /* Build configuration list for PBXProject "Jogo_da_Forca_3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CBF2E3264CC0020001FA44 /* Debug */,
+				14CBF2E4264CC0020001FA44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14CBF2E5264CC0020001FA44 /* Build configuration list for PBXNativeTarget "Jogo_da_Forca_3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CBF2E6264CC0020001FA44 /* Debug */,
+				14CBF2E7264CC0020001FA44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14CBF2C9264CC0000001FA44 /* Project object */;
+}
